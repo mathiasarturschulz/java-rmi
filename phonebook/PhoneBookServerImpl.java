@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 public class PhoneBookServerImpl extends UnicastRemoteObject implements PhoneBookServer {
 
-    private final static String FILE_DIRECTORY = "/home/matt/Workspace/JavaRMI/phonebook";
+    private final static String FILE_DIRECTORY = "/home/matt/Workspace/java-rmi/phonebook";
 	private final static String FILE_NAME = "data.txt";
     private static final long serialVersionUID = 1L;
 
