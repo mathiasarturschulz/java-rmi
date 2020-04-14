@@ -22,3 +22,5 @@ Depois é necessário executar o cliente
 
 `java classapp.PhoneBookClient`
 
+**Obs:** É necessário alterar o diretório no qual o *data.txt* é lido e gravado
+
