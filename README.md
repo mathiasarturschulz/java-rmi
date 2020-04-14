@@ -14,6 +14,8 @@ O projeto compilado estará salvo na pasta *classapp*
 
 ## Executar
 
+Para executar a aplicação, na pasta java-rmi do projeto execute os comandos abaixo
+
 Primeiro é necessário executar o servidor
 
 `java classapp.PhoneBookServerImpl`
