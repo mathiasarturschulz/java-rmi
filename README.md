@@ -16,7 +16,7 @@ O projeto compilado estará salvo na pasta *classapp*
 
 Primeiro é necessário executar o servidor
 
-`java classapp.PhoneBookServer`
+`java classapp.PhoneBookServerImpl`
 
 Depois é necessário executar o cliente
 

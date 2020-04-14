@@ -31,7 +31,10 @@ public class PhoneBookClient {
             
             ArrayList<PhoneBookEntry> listPhoneBook = stub.getPhoneBook();
             
-            System.out.println("Lista de felefones cadastrados: " + listPhoneBook);
+            System.out.println("Lista de felefones cadastrados: ");
+            for (PhoneBookEntry phoneBookEntry : listPhoneBook) {
+                System.out.println(phoneBookEntry.toString());
+            }
         } catch (RemoteException | NotBoundException ex) {
             System.err.println(ex);
         }
